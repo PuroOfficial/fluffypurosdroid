@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /puroprogramdenied.html/
+Disallow: /puroprogramgranted.html/
+Disallow: /puroprogramsignin.html/
+Disallow: /puroprogramverifying.html/
+Disallow: /empty.html/
+Disallow: /not-found.html/
+
+Sitemap: https://droid.fluffystudio.tk/sitemap.xml

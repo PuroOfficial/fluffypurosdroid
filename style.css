@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  cursor: url(images/pixel-green-cursor.gif), default;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.rotate {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  animation: rotation 1s infinite ease-in-out;
+}
+
+.androidframe {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  animation: leftrotation 1s infinite ease-in-out;
+}
+
+.pulsusanimation {
+  animation: pulsus 0.5s infinite ease-out;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes leftrotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pulsus {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
